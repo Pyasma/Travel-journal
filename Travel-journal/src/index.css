@@ -1,0 +1,66 @@
+html, body{
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header-box {
+  display: flex;
+  background-color: #f55a5a ;
+  color : white;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.globe {
+  width: 30px;
+  margin-right: 10px;
+}
+.header-text {
+  font-size: 2em;
+}
+.main-body {
+  display: flex;
+  margin: 40px; 
+}
+.image-div {
+  width: 210px;
+  height: 320px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.main-body-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.box-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 20px;
+  align-self: center;
+}
+
+.text-body {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.view-onmap a {
+  color: grey;
+  font-weight: lighter;
+}
+.Head-travel {
+  font-weight:extra-bold; 
+}
+.body-date {
+  font-weight: bold;
+  margin-top: 0;
+}
