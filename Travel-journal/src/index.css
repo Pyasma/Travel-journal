@@ -1,71 +1,74 @@
-html, body{
-  margin: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+html,
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .header-box {
-  display: flex;
-  background-color: #f55a5a ;
-  color : white;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    background-color: #f55a5a;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .globe {
-  width: 30px;
-  margin-right: 10px;
+    width: 30px;
+    margin-right: 10px;
 }
 .header-text {
-  font-size: 2em;
+    font-size: 2em;
 }
 .main-body {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* or center if you want vertical alignment */
-  gap: 20px;
-  margin: 40px auto;
-  max-width: 800px; /* key: limits total width */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* or center if you want vertical alignment */
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 800px; /* key: limits total width */
 }
 
 .image-div {
-  width: 210px;
-  height: 320px;
-  overflow: hidden;
-  flex-shrink: 0;
+    width: 210px;
+    height: 320px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .main-body-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 18px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 18px;
 }
 
 .box-head {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .icon {
-  width: 20px;
-  align-self: center;
+    width: 20px;
+    align-self: center;
 }
 
 .text-body {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .view-onmap a {
-  color: grey;
-  font-weight: lighter;
+    color: grey;
+    font-weight: lighter;
 }
 .Head-travel {
-  font-weight:extra-bold; 
+    font-weight: extra-bold;
 }
 .body-date {
-  font-weight: bold;
-  margin-top: 0;
+    font-weight: bold;
+    margin-top: 0;
 }
